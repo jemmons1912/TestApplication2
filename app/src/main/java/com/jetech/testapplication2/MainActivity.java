@@ -11,6 +11,8 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
+    private static final int Morning = ;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,6 +25,8 @@ public class MainActivity extends AppCompatActivity {
         //This is my comment:you have a button being assigned to the variable theButton which is now hooked to the xml button
         final Button theButton = findViewById(R.id.button);
         final ImageView myImage = findViewById(R.id.imageView);
+        EditText secondEditText = findViewById(R.id.editText);
+        secondEditText.setText(Good Morning);
 
         //This is my comment:this gives button functionality
         theButton.setOnClickListener(new View.OnClickListener() {
