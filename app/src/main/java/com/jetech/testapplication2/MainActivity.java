@@ -49,16 +49,20 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         Automobile myVehicle = new Car();
-        Log.e("Test","my vehicle has "+myVehicle.getNumberOfWheels()+" wheels");
+        Log.e("Test", "my vehicle has " + myVehicle.getNumberOfWheels() + " wheels");
+        Log.d("Test", "my vehicle has " + myVehicle.getNumberOfDoors() + " doors");
         myVehicle = new Truck();
-        Log.e("Test","my vehicle has "+myVehicle.getNumberOfWheels()+" wheels");
+        Log.e("Test", "my vehicle has " + myVehicle.getNumberOfWheels() + " wheels");
+        Log.d("Test", "my vehicle has " + myVehicle.getNumberOfDoors() + " doors");
         myVehicle = new Motorcycle();
-        Log.e("Test","my vehicle has "+myVehicle.getNumberOfWheels()+" wheels");
+        Log.e("Test", "my vehicle has " + myVehicle.getNumberOfWheels() + " wheels");
+        Log.d("Test", "my vehicle has " + myVehicle.getNumberOfDoors() + " doors");
         myVehicle = new Tractor();
-        Log.e("Test","my vehicle has "+myVehicle.getNumberOfWheels()+" wheels");
-        myVehicle =new Bus();
-        Log.e("Test","my vehicle has "+myVehicle.getNumberOfWheels()+" wheels");
-
+        Log.e("Test", "my vehicle has " + myVehicle.getNumberOfWheels() + " wheels");
+        Log.d("Test", "my vehicle has"  + myVehicle.getNumberOfDoors() + "doors");
+        myVehicle = new Bus();
+        Log.e("Test", "my vehicle has " + myVehicle.getNumberOfWheels() + " wheels");
+        Log.d("Test", "my vehicle has" +  myVehicle.getNumberOfDoors() + "doors");
 
 
     }
